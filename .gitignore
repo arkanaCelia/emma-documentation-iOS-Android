@@ -1,0 +1,19 @@
+# ignore all
+*
+
+# but /EMMA-Documentation and gitignore
+!EMMA-Documentation/
+!EMMA-Documentation/**
+!EMMA-Documentation/EMMA_Documentation.docc/**
+!EMMA-Documentation/EMMA_Documentation.docc/Resources/**
+!EMMA-Documentation/EMMA_iOS_DocC.doccarchive/**
+!.gitignore
+
+# other ignores
+Pods/
+EMMA-Documentation.xcodeproj/
+EMMA-DocumentationTests/
+*.xcworkspace
+*.xcuserdatad
+DerivedData/
+Podfile
